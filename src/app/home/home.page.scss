@@ -1,0 +1,71 @@
+.titulo-site {
+  text-align: center;
+  color: white;
+}
+
+.form-info-livros {
+  margin: auto;
+  margin-top: 10px;;
+  font-size: 20px;
+  color: white;
+}
+
+.titulo {
+  margin-top: 15px;
+}
+
+.titulo input {
+  margin-left: 10px;
+  width: 250px;
+  border-color:white;
+  border-radius: 5px;
+}
+
+.autor {
+  margin-top: 15px;
+}
+
+.autor input {
+  margin-left: 73px;
+  width: 250px;
+  border-color:white;
+  border-radius: 5px;
+}
+
+.ano {
+  margin-top: 15px;
+
+}
+
+.ano input {
+  margin-left: 10px;
+  width: 220px;
+  border-color:white;
+  border-radius: 5px;
+}
+
+.idioma {
+  margin-top: 15px;
+}
+
+.idioma input {
+  margin-left: 64px;
+  width: 250px;
+  border-color:white;
+  border-radius: 5px;
+}
+
+.num-paginas {
+  margin-top: 15px;
+}
+
+.num-paginas input {
+  margin-left: 20px;
+  border-color:white;
+  border-radius: 5px;
+}
+.button-livro {
+font-size: 20px;
+background-color: white;
+color: black;
+}
