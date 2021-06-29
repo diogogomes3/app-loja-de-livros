@@ -10,6 +10,7 @@ export class BookRegisterComponent implements OnInit {
 
   public formBook: FormGroup;
 
+
   constructor(
     private formBuilder: FormBuilder
   ) {
@@ -23,7 +24,10 @@ export class BookRegisterComponent implements OnInit {
   private createForm(): FormGroup {
     return this.formBuilder.group({
       name: [null],
-      author: [null]
+      author: [null],
+      language: [null],
+      year: [null],
+      numberofpages: [null]
     })
   }
 
