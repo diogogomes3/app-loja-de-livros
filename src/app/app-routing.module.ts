@@ -7,8 +7,12 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
+    path: 'book-register',
+    loadChildren: () => import('./book-register/book-register.module').then( m => m.BookRegisterModule)
+  },
+  {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'book-register',
     pathMatch: 'full'
   },
 ];
